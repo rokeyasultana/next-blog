@@ -1,3 +1,4 @@
+import MyProfilePic from './components/MyProfilePic'
 import Navbar from './components/Navbar'
 import './globals.css'
 
@@ -15,6 +16,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="dark:bg-slate-800">
         <Navbar></Navbar>
+        <MyProfilePic></MyProfilePic>
         {children}
       
       </body>
